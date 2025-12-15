@@ -8,15 +8,58 @@ color:#434455;
 background-color:#FFFFFF;
 }
 
+/* reset  */
+
 ul, ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
 }
 
 a {
     text-decoration: none;
 }
 
-/* --- Header --- */
+/* common */
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 .logo {
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
@@ -27,11 +70,18 @@ text-transform: uppercase;
 color: #4d5ae5;
 }
 
+.header-logo {
+    padding: 24px 0;
+    margin-right: 74px;
+}
+
 .header-logo .logo-part {
     color: #2E2F42;
 }
 
 .nav-link {
+    display: block;
+    padding: 24px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -48,7 +98,8 @@ color:  #2E2F42;
 }
 
 .contacts {
-  font-style: normal;  
+  font-style: normal;
+  margin-left: auto;  
 }
 
 .contacts-link:hover {
@@ -60,6 +111,8 @@ color:  #2E2F42;
 }
 
 .contacts-link {
+    display: block;
+    padding: 24px;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
