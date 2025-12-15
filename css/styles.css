@@ -182,7 +182,33 @@ color: #434455
 
 /* --- Feature --- */
 
+.visually-hiden {
+    position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.features {
+    padding: 120px 0;
+}
+
+.feature-list {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 .feature-title {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -196,6 +222,11 @@ color: #434455
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:  #434455;
+    margin: 0;
+}
+
+.features-item {
+    width: calc((100% -72px)/4);
 }
 
 /* --- Our Team --- */
