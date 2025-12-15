@@ -170,6 +170,7 @@ color: #434455
     height: 56px;
     min-width: 169px;
     display: block;
+    margin: 0 auto;
 }
 
 .hero-btn:hover {
@@ -261,9 +262,10 @@ color: #434455
     background-color: #FFFFFF;
 }
 
-.team-item img {
+.team-image {
     display: block;
     max-width: 100%;
+    height: auto;
 }
 
 .team-name {
